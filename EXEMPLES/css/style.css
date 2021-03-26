@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer, nav, aside, section
+{
+    display: block;
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+header
+{
+    background-color: rgb(0, 88, 139); /* couleur du block header*/
+}
+
+#logo
+{
+    background-image: url("../image/Star.png");
+    height: 88px;   /* la taille du block*/
+    width: 88px;    /* la taille du block*/
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#logo span /* pour deplacer la ou ya le mot gravity*/
+{
+    color:#222222; /* couleur du mot a cote du logo*/
+    font-size: 60px; /* taille du mot a cote du logo*/
+    /*padding-left: 110px; /* deplacer le mot a cote du logo vers la droite*/
+    margin-left: 110px; /* deplacer en haut le mot a cote du logo*/
+    line-height: 88px;
+}

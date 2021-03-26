@@ -1,0 +1,293 @@
+* {
+    margin: 0px;
+    padding: 0px;    
+    text-decoration: none;
+}
+
+
+header, main, footer, nav, aside, section
+{
+    display: block; /* on a crée 6 block different*/
+}
+
+
+header, footer, nav
+{
+    background-color: #ED4C5C; /* couleur du block header*/
+}
+
+
+body /*ca c'est toute la feuille la police d'ecriture et la couleur de fond de page*/
+{
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+header
+{
+    padding-top: 60.8px;
+    padding-bottom: 48px;
+    width: 100%;
+    height: 657px;
+}
+
+
+#logo
+{
+    background-image: url("../images/france.jpg");
+    height: 50px;   /* la taille du logo*/
+    width: 657px;    /* la taille du block en hauteur*/
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 25px; /* emplacement du logo vers le bas*/
+    margin-left: 50px; /* emplcament vers la gauche*/
+}
+
+
+#logo span /* pour deplacer la ou ya le mot*/
+{
+    color:#FFFFFF; /* couleur du mot a cote du logo*/
+    font-size: 22px; /* taille du mot a cote du logo*/
+    margin-left: 90px; /* deplacer droite le mot a cote du logo*/
+  /*mettre tout en majuscule  text-transform: uppercase;*/
+}
+
+
+nav {
+    margin-left: 50px; /*deplacer vers la droite le menu*/
+    margin-top: 48px; /*deplacer vers le bas le menu*/
+    height: 22px;
+}
+
+
+
+nav a
+{
+    color: #FFFFFF; /*couleur du menu overview, feature etc*/
+    margin-right: 18px; /*espace entre les mots du menu*/
+    font-size: 14px;
+}
+
+
+nav a:hover /*avant de cliquer sur le lien du menu*/
+{
+    color:rgb(105,105,105);
+}
+
+
+#picture img {
+    border-radius: 15px; /*angle du carre*/
+    margin-left: 89px;  /*combien vers la droite*/
+    display: block;
+    margin-top:-500px;
+}
+
+
+#picture button {
+    border-radius: 6px;
+    margin-left: 50px;
+    display: block;
+    width: 160px;
+    height: 45px;
+    font-size: 14px;
+    margin-bottom: 55px;
+    border: none;
+    color: #ED4C5C;
+    background-color: #FFFFFF;
+    
+}
+
+
+#moi h1  /*titre moi*/
+{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-top: 250px;
+}
+
+#moi p  /*paragraphe sur moi*/
+{
+    width: 445px; /*taille du text comment on le veut en longueur largeur etc*/
+    height: 90px; /*taille du block*/
+    padding-left: 50px; /*deplacer vers la droite*/
+    padding-top: 30px;  /*espace avec le haut*/
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%; /* si ya pas ca les mots sont l'un sur les autres*/
+    
+    text-align: justify; /* justifier le text*/
+    color: #000000;
+}
+
+#moi #more /* le carre du plus d'info*/
+{
+    padding-left: 50px; /*deplacer vers la droite*/
+    line-height: 100px;
+    color: #ED4C5C;
+}
+
+
+.elem
+{
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+.elem a
+{
+    background-color: rgb(255, 255, 255);
+    color: #ED4C5C;
+    /*padding: gauche, haute, droite, bas*/
+    padding: 10px 157px;
+    border-radius: 8px;
+    margin-left : -135px;
+}
+
+.elem img
+{
+     /* taille de l'image*/
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-left: -135px;
+    box-shadow: 0px 50px 5px rgba(0, 0, 0, 0.048);
+}
+ 
+
+#tour
+{
+    position: absolute;
+    left: 180px;
+}
+
+
+#armee
+{
+    position: absolute;
+    padding-left: 560px;
+}
+
+#voyage
+{
+    position: absolute;
+    padding-left: 940px;
+}
+
+.hobbie
+{
+    
+    width: 100%;
+    height: 657px;
+    background: #F5F4F4;
+}
+
+.hobbie h1
+{
+    padding-top: 120px;
+    color: #000000;
+    padding-left: 50px; 
+}
+
+.hobbie img
+{
+    margin-left: 100px;
+    margin-top: 71.5px;
+}
+
+.hobbie h2
+{
+    width: 113px;
+    height: 22px;
+    margin-left: 70px;
+    top: 339px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #101010;
+}
+
+.hobbie p
+{
+    width: 191px;
+    height: 51px;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #000000;
+}
+
+#foot
+{
+    background: white;
+    height: 226px;
+    width: 255px;
+    margin-left: 50px;
+    margin-top: 56px;
+}
+
+#music
+{
+    background: white;
+    height: 226px;
+    width: 255px;
+    margin-left: 50px;
+    border-radius: 0px;
+    margin-top: -226px;
+    margin-left: 341px; /*deplacer le carre a droite ou a gauche*/
+}
+
+
+#livre
+{
+    background: white;
+    height: 226px;
+    width: 255px;
+    margin-left: 50px;
+    margin-top: -226px;
+    margin-left: 626px; 
+}
+
+
+#photos
+{
+    background: white;
+    height: 226px;
+    width: 255px;
+    margin-left: 50px;
+    margin-top: -226px;
+    margin-left: 911px;
+}
+
+footer
+{
+    height: 80px;
+    width: 100%;
+    display: flex;
+}
+
+footer img
+{
+ width: 28px;
+ height: 28px;
+ margin: 15px;
+ padding-top: 15px;
+}
+
+footer h3
+{
+    color: white;
+    padding-top: 30px;
+    padding-left: 80px;
+    font-weight: normal;
+}
